@@ -45,7 +45,6 @@ body{
     width: 200px;
     gap: 10px;
     border-radius: 10px 0px 0px 10px;
-    box-shadow: 5px 5px 5px  black;
 }
 
 
@@ -81,7 +80,6 @@ body{
     align-items: center;
     justify-content: center; */
     border-radius: 0px 10px 10px 0px;
-    box-shadow: 5px 5px 5px  black;
     transition: 1s;
 
 }
