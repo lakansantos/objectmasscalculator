@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="day24.css">
+    <script src="day24.js" defer></script>
+    <title>30 Days Of JavaScript: Mini Project Solar System</title>
+</head>
+<body>
+
+    <div class="main">
+        <div class="header">
+            <h1>Calculate weight of an object on a planet</h1>
+        </div>
+    
+        <div class="contents">
+            <div class="input">
+                <input type="text" placeholder="Enter Weight in Kilogram" id="mass">
+                <div class="error"></div>
+                <select name="" id="selected">
+                    <option value="selectPlanet" id="select" >--Select a planet --</option>
+                    <option value="mercury" id="mercury">Mercury</option>
+                    <option value="venus"   id="venus"  >Venus</option>
+                    <option value="earth"   id="earth"  >Earth</option>
+                    <option value="mars"    id="mars"   >Mars</option>
+                    <option value="jupiter" id="jupiter">Jupiter</option>
+                    <option value="saturn"  id="saturn" >Saturn</option>
+                    <option value="uranus"  id="uranus" >Uranus</option>
+                    <option value="neptune" id="neptune">Neptune</option>
+                    <option value="pluto"   id="pluto"  >Pluto</option>
+                
+                </select>
+                <div class="errorPlanet"></div>
+                <button>Calculate Weight</button>
+                
+            </div>
+            
+            <div class="result">
+
+                    <h1 class="resultH1"></h1>   
+         
+                  <div class="imageContainer">
+                      <!-- <img src="https://cdn-icons-png.flaticon.com/512/1086/1086084.png" alt="Mercury" class="planets"> -->
+                  </div>
+                  <h2 class="resultH2"></h2>
+                
+            </div>
+        </div>
+    </div>
+
+ 
+</body>
+</html>
