@@ -155,7 +155,6 @@ body{
     .contents{
         display: flex;
         flex-direction: column;
-        border: 5px solid white;
     }
 
     .input{
@@ -178,7 +177,6 @@ body{
     }
 
     #selected{
-        border: 5px solid green;
         width: 100%;
     }
 
